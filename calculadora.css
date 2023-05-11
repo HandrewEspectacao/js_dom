@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#center{
+     display: flex;
+    justify-content: center;
+    align-items: center; 
+    width: 100px;
+    position: absolute;
+    margin-top: 16%;
+    margin-left: 40%;
+     flex-direction:column;  
+}
+.botao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(221, 11, 11);
+    border: 3px solid darkred;
+    border-radius: 10px;
+    font-weight: bold;
+    width: 45px;
+    height: 45px;
+    flex-wrap: wrap;
+    
+}
+#db{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+}
+

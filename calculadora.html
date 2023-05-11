@@ -5,15 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="calculadora.css">
     <script src="calculadora.js"defer></script>
 </head>
 <body>
+    <div id="center">
+    <div>
     <input type="number" id="v1">
     <input type="number" id="v2">
-    <button type="button" id="soma" onclick="soma()">+</button>
-    <button type="button" id="sub" onclick="sub()">-</button>
-    <button type="button" id="mult" onclick="mult()">*</button>
-    <button type="button" id="div" onclick="div()">/</button>
+    </div>
+    <div id="db">
+        <button type="button" id="soma" onclick="soma()" class="botao">+</button>
+        <button type="button" id="sub" onclick="sub()" class="botao">-</button>
+        <button type="button" id="mult" onclick="mult()" class="botao">*</button>
+        <button type="button" id="div" onclick="div()" class="botao">/</button>
+        
+    </div>
     <p id="res"></p>
+    </div>
 </body>
 </html>
